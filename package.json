@@ -1,0 +1,80 @@
+{
+  "name": "@debacode-public/strapi-nextjs-blurhash",
+  "description": "A Strapi extension for generating and storing BlurHash strings, enhancing image loading visuals.",
+  "license": "(c) Copyright 2026 foldland Software GmbH, all rights reserved.",
+  "author": "fold:land",
+  "version": "0.2.0",
+  "type": "commonjs",
+  "keywords": [
+    "strapi-extension",
+    "nextjs",
+    "blurhash"
+  ],
+  "files": [
+    "dist"
+  ],
+  "strapi": {
+    "kind": "plugin",
+    "name": "strapi-nextjs-blurhash",
+    "displayName": "Strapi Next.Js Blurhash",
+    "description": "A Strapi extension for generating and storing BlurHash strings, enhancing image loading visuals."
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./strapi-server": {
+      "types": "./dist/src/index.d.ts",
+      "source": "./src/index.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "strapi-plugin build",
+    "check": "pnpm format:check && pnpm lint:check && pnpm typecheck && pnpm verify",
+    "dev": "strapi-plugin watch",
+    "format:check": "biome check --formatter-enabled=true --linter-enabled=false --assist-enabled=false ",
+    "format:write": "biome format --write",
+    "link": "strapi-plugin watch:link",
+    "lint:check": "biome check --formatter-enabled=false --linter-enabled=true --assist-enabled=true",
+    "lint:write": "biome lint --write",
+    "test": "echo \"No tests setup\"",
+    "verify": "strapi-plugin verify",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@strapi/sdk-plugin": "^5.4.0",
+    "@strapi/strapi": "^5.36.0"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0",
+    "zod": "^3.25.67 || ^4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.15",
+    "@debacode-public/biome-configs": "0.8.16",
+    "@strapi/sdk-plugin": "5.4.0",
+    "@strapi/strapi": "5.36.1",
+    "@strapi/typescript-utils": "5.36.1",
+    "@strapi/upload": "5.36.1",
+    "@types/node": "25.3.0",
+    "typescript": "^5.9.3"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^22.0.0",
+      "onFail": "download"
+    },
+    "packageManager": [
+      {
+        "name": "pnpm",
+        "version": "10.28.2",
+        "onFail": "download"
+      },
+      {
+        "name": "npm"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+#minimumReleaseAge: 4320 # 3 days - same as renovate
+minimumReleaseAgeExclude:
+  - "@debacode-public/*"
+
+# Dependency resolution
+savePrefix: ""
+resolutionMode: "highest"
+strictPeerDependencies: true
+
+# node version
+useNodeVersion: 22.0.0
+engineStrict: true
+ignorePnpmfile: true
+# pnpm version
+packageManagerStrict: true
+packageManagerStrictVersion: true
+
+verifyDepsBeforeRun: "install"
+
+overrides:
+  # broken strapi peers
+  # https://github.com/strapi/strapi/issues/21201
+  codemirror@>=6.0.0: "^5.65.21"
+  typescript@<5.6.0: ^5.6.0
+  zod@<3.25.76: ^3.25.76 || ^4
+  # security issues
+  ajv@<8.18.0: ">=8.18.0"
+  esbuild@<=0.24.2: ">=0.25.0"
+  lodash@>=4.0.0 <=4.17.22: ">=4.17.23"
+  markdown-it@>=13.0.0 <14.1.1: ">=14.1.1"
+  minimatch@<10.2.1: ">=10.2.1"
+  tar@<7.5.8: ">=7.5.8"
+  tmp@<=0.2.3: ">=0.2.4"
