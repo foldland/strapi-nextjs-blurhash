@@ -43,7 +43,7 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@strapi/sdk-plugin": "^5.4.0",
+    "@strapi/sdk-plugin": "^5.4.0 || ^6.0.0",
     "@strapi/strapi": "^5.36.0"
   },
   "dependencies": {
@@ -53,7 +53,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.3.15",
     "@debacode-public/biome-configs": "0.8.16",
-    "@strapi/sdk-plugin": "5.4.0",
+    "@strapi/sdk-plugin": "6.0.0",
     "@strapi/strapi": "5.36.1",
     "@strapi/typescript-utils": "5.36.1",
     "@strapi/upload": "5.36.1",
