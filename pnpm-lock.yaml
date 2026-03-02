@@ -37,8 +37,8 @@ importers:
         specifier: 0.8.19
         version: 0.8.19(@biomejs/biome@2.4.4)
       '@strapi/sdk-plugin':
-        specifier: 6.0.0
-        version: 6.0.0(@types/node@25.3.0)(rollup@4.59.0)(terser@5.46.0)
+        specifier: 6.0.1
+        version: 6.0.1(@types/node@25.3.0)(rollup@4.59.0)(terser@5.46.0)
       '@strapi/strapi':
         specifier: 5.36.1
         version: 5.36.1(@babel/runtime@7.28.6)(@codemirror/autocomplete@6.20.0)(@codemirror/language@6.12.1)(@codemirror/lint@6.9.4)(@codemirror/search@6.6.0)(@codemirror/state@6.5.4)(@codemirror/theme-one-dark@6.1.3)(@codemirror/view@6.39.14)(@emotion/is-prop-valid@1.4.0)(@swc/helpers@0.5.18)(@types/hoist-non-react-statics@3.3.7(@types/react@18.3.28))(@types/node@25.3.0)(@types/react@18.3.28)(codemirror@5.65.21)(esbuild@0.27.3)(koa@3.1.2)(react-dom@18.3.1(react@18.3.1))(react-router-dom@6.30.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)(redux@4.2.1)(styled-components@6.3.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.46.0)(type-fest@4.41.0)
@@ -2245,8 +2245,8 @@ packages:
       react-router-dom: ^6.30.3
       styled-components: ^6.0.0
 
-  '@strapi/sdk-plugin@6.0.0':
-    resolution: {integrity: sha512-H7yoOLjNlat/+Bry4ILEQlyYe9NCnk6t8yVsdWfK50EDFwOsFSb2u3SDlIXrij55Hrq329Aw0Ht1ud9SnhDhsQ==}
+  '@strapi/sdk-plugin@6.0.1':
+    resolution: {integrity: sha512-P9V58uXGbYC/dAW8f8bYMiNwzOTeVN4BircJ+XR2NKEcIG4yasy+ZV1yaUnXteDj1h5ywuQbTkzgr7IoAsIR0A==}
     engines: {node: '>=18.0.0 <=22.x.x', npm: '>=6.0.0'}
     hasBin: true
 
@@ -9650,7 +9650,7 @@ snapshots:
       - redux
       - typescript
 
-  '@strapi/sdk-plugin@6.0.0(@types/node@25.3.0)(rollup@4.59.0)(terser@5.46.0)':
+  '@strapi/sdk-plugin@6.0.1(@types/node@25.3.0)(rollup@4.59.0)(terser@5.46.0)':
     dependencies:
       '@types/prompts': 2.4.9
       '@vitejs/plugin-react': 4.7.0(vite@6.4.1(@types/node@25.3.0)(terser@5.46.0))
