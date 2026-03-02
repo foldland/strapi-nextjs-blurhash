@@ -54,8 +54,8 @@
     "@biomejs/biome": "2.4.4",
     "@debacode-public/biome-configs": "0.8.19",
     "@strapi/sdk-plugin": "6.0.1",
-    "@strapi/strapi": "5.36.1",
-    "@strapi/typescript-utils": "5.36.1",
+    "@strapi/strapi": "5.37.1",
+    "@strapi/typescript-utils": "5.37.1",
     "@strapi/upload": "5.37.1",
     "@types/node": "25.3.0",
     "typescript": "5.9.3"
