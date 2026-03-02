@@ -47,7 +47,7 @@
     "@strapi/strapi": "^5.36.0"
   },
   "dependencies": {
-    "sharp": "^0.33.0",
+    "sharp": "^0.34.0",
     "zod": "^3.25.67 || ^4"
   },
   "devDependencies": {
