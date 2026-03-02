@@ -65,7 +65,11 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
       })
 
     strapi.log.info(
-      `blurhash: found missing ${JSON.stringify(images.map((i) => i.id))}`
+      `blurhash: found missing ${JSON.stringify(
+        images.map((i) => {
+          return i.id
+        })
+      )}`
     )
 
     await Promise.all(
