@@ -58,7 +58,7 @@
     "@strapi/typescript-utils": "5.36.1",
     "@strapi/upload": "5.36.1",
     "@types/node": "25.3.0",
-    "typescript": "^5.9.3"
+    "typescript": "5.9.3"
   },
   "devEngines": {
     "runtime": {

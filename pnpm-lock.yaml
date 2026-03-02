@@ -55,7 +55,7 @@ importers:
         specifier: runtime:^22.0.0
         version: runtime:22.22.0
       typescript:
-        specifier: ^5.9.3
+        specifier: 5.9.3
         version: 5.9.3
 
 packages:
