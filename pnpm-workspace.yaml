@@ -20,9 +20,8 @@ verifyDepsBeforeRun: "install"
 overrides:
   # broken strapi peers
   # https://github.com/strapi/strapi/issues/21201
-  codemirror@>=6.0.0: "^5.65.21"
-  typescript@<5.6.0: ^5.6.0
-  zod@<3.25.76: ^3.25.76 || ^4
+  typescript@5.3.x: ^5.3.0
+  zod@3.25.67: ^3.25.76
   # security issues
   ajv@>=7.0.0-alpha.0 <8.18.0: ">=8.18.0"
   esbuild@<=0.24.2: ">=0.25.0"
