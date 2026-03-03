@@ -1,4 +1,4 @@
-#minimumReleaseAge: 4320 # 3 days - same as renovate
+minimumReleaseAge: 4320 # 3 days - same as renovate
 minimumReleaseAgeExclude:
   - "@debacode-public/*"
 
@@ -6,6 +6,7 @@ minimumReleaseAgeExclude:
 savePrefix: ""
 resolutionMode: "highest"
 strictPeerDependencies: true
+preferFrozenLockfile: true
 
 # node version
 useNodeVersion: 22.0.0
@@ -15,6 +16,10 @@ ignorePnpmfile: true
 packageManagerStrict: true
 packageManagerStrictVersion: true
 
+# Security
+blockExoticSubdeps: true
+hoist: false
+hoistWorkspacePackages: false
 verifyDepsBeforeRun: "install"
 
 overrides:
