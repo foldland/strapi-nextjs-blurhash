@@ -72,18 +72,24 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
       )}`
     )
 
-    await Promise.all(
-      images.map(async ({ id, url }: Partial<File>) => {
-        const blurhash = await service.generate(url)
+    const chunkSize = config.generationChunkSize
+    for (let i = 0; i < images.length; i += chunkSize) {
+      const chunk = images
+        .slice(i, i + chunkSize)
+        .map(async ({ id, url }: Partial<File>) => {
+          const blurhash = await service.generate(url)
 
-        await strapi.db.query('plugin::upload.file').update({
-          where: { id: id },
-          data: {
-            blurhash: blurhash,
-          },
+          await strapi.db.query('plugin::upload.file').update({
+            where: { id: id },
+            data: {
+              blurhash: blurhash,
+            },
+          })
         })
-      })
-    )
+
+      // biome-ignore lint/performance/noAwaitInLoops: we need chunking to avoid an OOM
+      await Promise.all(chunk)
+    }
 
     strapi.log.info(
       config.regenerateOnStart
