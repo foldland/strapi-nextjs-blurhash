@@ -33,8 +33,8 @@ importers:
         specifier: 2.4.4
         version: 2.4.4
       '@debacode-public/biome-configs':
-        specifier: 0.8.19
-        version: 0.8.19(@biomejs/biome@2.4.4)
+        specifier: 0.8.20
+        version: 0.8.20(@biomejs/biome@2.4.4)
       '@strapi/sdk-plugin':
         specifier: 6.0.1
         version: 6.0.1(@types/node@22.19.13)(rollup@4.59.0)(terser@5.46.0)
@@ -401,8 +401,8 @@ packages:
   '@dabh/diagnostics@2.0.8':
     resolution: {integrity: sha512-R4MSXTVnuMzGD7bzHdW2ZhhdPC/igELENcq5IjEverBvq5hn1SXCWcsi6eSsdWP0/Ur+SItRRjAktmdoX/8R/Q==}
 
-  '@debacode-public/biome-configs@0.8.19':
-    resolution: {integrity: sha512-YKl1V5AtXV2Whua2FTwoFTV74QqIh9vewf2tavGBGKb8yHU0PJ5OG336BvyOLFLLC6nJ8IfGrLU8uYphOGVKIA==}
+  '@debacode-public/biome-configs@0.8.20':
+    resolution: {integrity: sha512-Rq78nQhAeYYIn+BN4GEdofDDlG+5ocsGuXsKXdBWrUyyAdfeAn2HdOPvCOvbxgOfKVWkHMDC0r1M6PIAwUR9LA==}
     peerDependencies:
       '@biomejs/biome': ~2.2.0 || ~2.3.0 || ~2.4.0
 
@@ -7530,7 +7530,7 @@ snapshots:
       enabled: 2.0.0
       kuler: 2.0.0
 
-  '@debacode-public/biome-configs@0.8.19(@biomejs/biome@2.4.4)':
+  '@debacode-public/biome-configs@0.8.20(@biomejs/biome@2.4.4)':
     dependencies:
       '@biomejs/biome': 2.4.4
 
