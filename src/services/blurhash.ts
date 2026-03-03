@@ -23,14 +23,16 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
 
       const buffer = await sharp(path)
         .resize({
+          // ~0.93% size if only height constrained (not square)
           height: config.blurSize,
-          width: config.blurSize,
-          fit: 'inside',
         })
-        .png()
+        .autoOrient()
+        // always use the default options for now.
+        .toFormat(config.format)
+        .timeout({ seconds: 5 })
         .toBuffer()
       const blurImageBase64 = buffer.toString('base64')
-      const blurHash = `data:image/png;base64,${blurImageBase64}`
+      const blurHash = `data:image/${config.format};base64,${blurImageBase64}`
 
       return blurHash
     } catch (error) {
