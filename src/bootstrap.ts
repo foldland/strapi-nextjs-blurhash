@@ -1,6 +1,7 @@
 import type { Core } from '@strapi/strapi'
 import type { File } from '@strapi/upload/dist/server/src/types.d.ts'
 import type { PluginConfig } from './config/schema.ts'
+import { supportedMimeTypes } from './utils.ts'
 
 type Subscriber = Parameters<Core.Strapi['db']['lifecycles']['subscribe']>[0]
 // biome-ignore lint/suspicious/noExplicitAny: that's how types work
@@ -16,7 +17,11 @@ const bootstrap = async ({ strapi }: { strapi: Core.Strapi }) => {
     const photo: Partial<File & { blurhash: string }> | undefined =
       event.params.data
 
-    if (photo === undefined || photo.url === undefined) {
+    if (
+      photo === undefined ||
+      photo.url === undefined ||
+      !supportedMimeTypes.includes(photo.mime ?? '')
+    ) {
       strapi.log.info('blurhash: upload event has no data')
       return
     }
@@ -31,6 +36,7 @@ const bootstrap = async ({ strapi }: { strapi: Core.Strapi }) => {
     `blurhash: plugin loaded with config ${JSON.stringify(config)}`
   )
 
+  // generate before setting up the lister to avoid infinite loops
   if (config.generateMissingOnStart || config.regenerateOnStart) {
     await service.generateMissing()
   }

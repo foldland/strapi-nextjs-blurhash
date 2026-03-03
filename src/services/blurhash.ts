@@ -3,6 +3,7 @@ import type { Core } from '@strapi/strapi'
 import type { File } from '@strapi/upload/dist/server/src/types.d.ts'
 import sharp from 'sharp'
 import type { PluginConfig } from '../config/schema.ts'
+import { supportedMimeTypes } from '../utils.ts'
 
 const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
   generate: async (url: string): Promise<string | undefined> => {
@@ -53,13 +54,16 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
       .query('plugin::upload.file')
       .findMany({
         select: ['id', 'url'],
-        where: config.regenerateOnStart
-          ? undefined
-          : {
-              blurhash: {
+        where: {
+          mime: {
+            $in: supportedMimeTypes,
+          },
+          blurhash: config.regenerateOnStart
+            ? undefined
+            : {
                 $null: true,
               },
-            },
+        },
       })
 
     strapi.log.info(
