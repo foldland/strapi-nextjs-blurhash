@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.1.0](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/compare/v1.0.2..v1.1.0) - 2026-03-03
+
+### ✨ New Features & Improvements
+
+- add chunking to generation logic - ([475c19f](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/475c19f4a65143c6e2c211e709e5b5d5de696271)) - @Nikolas Rimikis
+- adjustable blur format - ([d21182e](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/d21182eb1035a0887a6899d3523057157d4f8396)) - @Nikolas Rimikis
+
+### 🐛 Bug Fixes & Optimizations
+
+- filter upload mime types - ([1508990](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/150899094d473483ddd5249d2ea1fe0173c1a3f7)) - @Nikolas Rimikis
+
+### 🚀 Performance
+
+- improve image loading - ([03788cd](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/03788cdcf18de6efd858382407f2b190630706a1)) - @Nikolas Rimikis
+
+
+
+
+#### Statistics
+- 4 commit(s) contributed to the release.
+- 0 day(s) passed between the first and last commit.
+- 4 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+---
 ## [1.0.2](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/compare/v1.0.1..v1.0.2) - 2026-03-03
 
 ### 🐛 Bug Fixes & Optimizations
