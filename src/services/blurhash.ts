@@ -1,4 +1,3 @@
-import fs from 'node:fs/promises'
 import p from 'node:path'
 import type { Core } from '@strapi/strapi'
 import type { File } from '@strapi/upload/dist/server/src/types.d.ts'
@@ -21,8 +20,7 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
     try {
       const path = p.join(srcDir, url)
 
-      const image = await fs.readFile(path)
-      const buffer = await sharp(image)
+      const buffer = await sharp(path)
         .resize({
           height: config.blurSize,
           width: config.blurSize,
