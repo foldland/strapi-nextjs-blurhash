@@ -6,7 +6,7 @@ const pluginConfigSchema = z.object({
    *
    * Output images are always scaled, keeping their aspect ratio.
    */
-  blurSize: z.number().default(8),
+  blurSize: z.coerce.number().default(8),
 
   /**
    * Format of the output image (blur)
@@ -26,17 +26,17 @@ const pluginConfigSchema = z.object({
    *
    * Used on on start when images have no blurData or regenerate is enabled.
    */
-  generationChunkSize: z.number().default(4),
+  generationChunkSize: z.coerce.number().default(4),
 
   /**
    * Force regenerates all images on start.
    */
-  regenerateOnStart: z.boolean().default(false),
+  regenerateOnStart: z.coerce.boolean().default(false),
 
   /**
    * Generate blur data when missing.
    */
-  generateMissingOnStart: z.boolean().default(true),
+  generateMissingOnStart: z.coerce.boolean().default(true),
 })
 export type PluginConfig = z.infer<typeof pluginConfigSchema>
 
