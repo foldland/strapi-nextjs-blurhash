@@ -23,7 +23,7 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
 
       const buffer = await sharp(path)
         .resize({
-          // ~0.93% size if only height constrained (not square)
+          // ~0.93 size if only height constrained (not square)
           height: config.blurSize,
         })
         .autoOrient()
