@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.2.1](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/compare/v1.2.0..v1.2.1) - 2026-03-05
+
+### 🐛 Bug Fixes & Optimizations
+
+- invalid comment - ([cd1e2b8](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/cd1e2b8b073ddcfb4ddd311a3ec91bba218b32ff)) - @Nikolas Rimikis
+- blur regeneration on start - ([efcebf1](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/efcebf18ef8ccd5bde39ed6f87f3ec6780b2391d)) - @Nikolas Rimikis
+
+### 🔨 Refactoring
+
+- improve logging - ([ca91aae](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/ca91aae326263c390e1ff1eb33fc353e5ee148f5)) - @Nikolas Rimikis
+
+### 🔧 Chores
+
+- update deps fixing CVEs - ([cc36725](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/cc36725b21e885426d4cb33d0f4f1ea9f212534f)) - @Nikolas Rimikis
+
+
+
+
+#### Statistics
+- 4 commit(s) contributed to the release.
+- 0 day(s) passed between the first and last commit.
+- 4 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 1 day(s) passed between releases.
+---
 ## [1.2.0](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/compare/v1.1.0..v1.2.0) - 2026-03-04
 
 ### ✨ New Features & Improvements
