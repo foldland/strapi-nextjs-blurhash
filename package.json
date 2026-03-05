@@ -47,16 +47,16 @@
     "@strapi/strapi": "^5.36.0"
   },
   "dependencies": {
-    "sharp": "^0.34.0",
-    "zod": "^3.25.67 || ^4"
+    "sharp": "^0.34.5",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.4",
+    "@biomejs/biome": "2.4.6",
     "@debacode-public/biome-configs": "0.8.20",
     "@strapi/sdk-plugin": "6.0.1",
-    "@strapi/strapi": "5.37.1",
-    "@strapi/typescript-utils": "5.37.1",
-    "@strapi/upload": "5.37.1",
+    "@strapi/strapi": "5.38.0",
+    "@strapi/typescript-utils": "5.38.0",
+    "@strapi/upload": "5.38.0",
     "@types/node": "22.19.13",
     "codemirror": "6.0.2",
     "codemirror5": "npm:codemirror@5.65.21",

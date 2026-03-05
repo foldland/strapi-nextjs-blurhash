@@ -22,7 +22,7 @@ const bootstrap = async ({ strapi }: { strapi: Core.Strapi }) => {
       photo.url === undefined ||
       !supportedMimeTypes.includes(photo.mime ?? '')
     ) {
-      strapi.log.info('blurhash: upload event has no data')
+      strapi.log.debug(`blurhash: upload event has insufficient data ${photo}`)
       return
     }
 
@@ -32,7 +32,7 @@ const bootstrap = async ({ strapi }: { strapi: Core.Strapi }) => {
     photo.blurhash = await service.generate(photo.url)
   }
 
-  strapi.log.info(
+  strapi.log.debug(
     `blurhash: plugin loaded with config ${JSON.stringify(config)}`
   )
 
@@ -47,7 +47,7 @@ const bootstrap = async ({ strapi }: { strapi: Core.Strapi }) => {
     beforeUpdate: generateBlurhash,
   })
 
-  strapi.log.info('blurhash: bootstrap completed')
+  strapi.log.debug('blurhash: bootstrap completed')
 }
 
 export default bootstrap

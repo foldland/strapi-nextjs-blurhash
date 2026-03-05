@@ -23,7 +23,7 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
 
       const buffer = await sharp(path)
         .resize({
-          // ~0.93% size if only height constrained (not square)
+          // ~0.93 size if only height constrained (not square)
           height: config.blurSize,
         })
         .autoOrient()
@@ -33,6 +33,7 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
         .toBuffer()
       const blurImageBase64 = buffer.toString('base64')
       const blurHash = `data:image/${config.format};base64,${blurImageBase64}`
+      strapi.log.silly(`blurhash: generated ${blurHash} for image ${url}`)
 
       return blurHash
     } catch (error) {
@@ -49,7 +50,7 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
     strapi.log.info(
       config.regenerateOnStart
         ? 'blurhash: regenerating all blurs'
-        : 'blurhash: generate missing'
+        : 'blurhash: generate missing blurs'
     )
 
     const images: Array<Partial<File>> = await strapi.db
@@ -57,18 +58,16 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
       .findMany({
         select: ['id', 'url'],
         where: {
-          mime: {
-            $in: supportedMimeTypes,
-          },
+          mime: supportedMimeTypes,
           blurhash: config.regenerateOnStart
-            ? undefined
+            ? {}
             : {
                 $null: true,
               },
         },
       })
 
-    strapi.log.info(
+    strapi.log.debug(
       `blurhash: found missing ${JSON.stringify(
         images.map((i) => {
           return i.id
