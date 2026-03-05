@@ -58,11 +58,9 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
       .findMany({
         select: ['id', 'url'],
         where: {
-          mime: {
-            $in: supportedMimeTypes,
-          },
+          mime: supportedMimeTypes,
           blurhash: config.regenerateOnStart
-            ? undefined
+            ? {}
             : {
                 $null: true,
               },
