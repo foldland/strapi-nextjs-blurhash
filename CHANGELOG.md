@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.2.2](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/compare/v1.2.1..v1.2.2) - 2026-03-16
+
+### 🔧 Chores
+
+- **(deps)** update dependency tools/shared-pipelines to v5.0.6 - ([dee24a1](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/dee24a1aefa75834aeacc1f120253b9fc61e1e90)) - @renovate
+- **(deps)** lock file maintenance - ([9074301](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/9074301167e0f00cc9976943f66caf0cbb65ab0e)) - @renovate
+- **(deps)** update dependency @types/node to v22.19.15 - ([11334cd](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/11334cd9e7812025e542f2ed32020a5417f3a09e)) - @renovate
+- **(deps)** update strapi monorepo to v5.39.0 - ([c4ffb47](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/c4ffb47fe142d45a60c7afc24d7318fb3db9fd47)) - @Renovate Bot
+- **(deps)** update mcr.microsoft.com/devcontainers/typescript-node:22 docker digest to a0da027 - ([a5280a7](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/a5280a7858d30183cdf67df49200fd88243bf883)) - @renovate
+- **(deps)** update dependency debacode-public/cspell-dictionaries to v1.22.0 - ([dbe5c71](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/dbe5c719fc74742d583285500bfb1213262ff20a)) - @renovate
+- **(deps)** update dependency pnpm to v10.32.1 - ([72d9a13](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/72d9a13d3a2d30a26a16bd0caa99e1376ad6dc26)) - @renovate
+- **(deps)** update dependency @debacode-public/biome-configs to v1 - ([be2322d](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/be2322d9ef764ff368abbc66fd8ec98b97eb457f)) - @renovate
+- **(deps)** lock file maintenance - ([4090037](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/4090037d0c9701bf65c95e5b9f5157ae7a4fadca)) - @renovate
+- fix security warnings - ([100adfa](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/100adfad2d88a2b355c0817b8e50fc54b26f62bb)) - @Nikolas Rimikis
+
+
+
+
+#### Statistics
+- 10 commit(s) contributed to the release.
+- 6 day(s) passed between the first and last commit.
+- 10 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 11 day(s) passed between releases.
+---
 ## [1.2.1](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/compare/v1.2.0..v1.2.1) - 2026-03-05
 
 ### 🐛 Bug Fixes & Optimizations
