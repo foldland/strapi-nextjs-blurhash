@@ -1,6 +1,7 @@
 minimumReleaseAge: 4320 # 3 days - same as renovate
 minimumReleaseAgeExclude:
   - "@debacode-public/*"
+  - follow-redirects@1.16.0
 
 # Dependency resolution
 savePrefix: "^"
@@ -28,12 +29,10 @@ overrides:
   typescript@5.3.x: ^5.3.0
   zod@3.25.67: ^3.25.76
   # security issues
-  ajv@>=7.0.0-alpha.0 <8.18.0: ^8.18.0
-  esbuild@<=0.24.2: ^0.25.0
-  file-type@>=13.0.0 <21.3.1: ^21.3.2
-  koa@<2.16.4: ^2.16.4
-  markdown-it@>=13.0.0 <14.1.1: ^14.1.1
-  minimatch@>=10.0.0 <10.2.3: ^10.2.3
-  tar@<=7.5.10: ^7.5.11
-  tmp@<=0.2.3: ^0.2.4
-  undici@>=6.0.0 <6.24.0: ^6.24.0
+  ajv@>=7.0.0-alpha.0 <8.18.0: "^8.18.0"
+  axios@>=1.0.0 <1.15.0: "^1.15.0"
+  esbuild@<=0.24.2: "^0.25.0"
+  follow-redirects@<=1.15.11: "^1.16.0"
+  lodash@>=4.0.0 <=4.17.23: "^4.18.0"
+  markdown-it@>=13.0.0 <14.1.1: "^14.1.1"
+  vite@<=6.4.1: "^6.4.2"
