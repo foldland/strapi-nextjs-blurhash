@@ -57,7 +57,7 @@
     "@strapi/strapi": "5.42.0",
     "@strapi/typescript-utils": "5.42.0",
     "@strapi/upload": "5.42.0",
-    "@types/node": "22.19.15",
+    "@types/node": "22.19.17",
     "codemirror": "6.0.2",
     "codemirror5": "npm:codemirror@5.65.21",
     "typescript": "5.9.3"
