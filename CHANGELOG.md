@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.2.3](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/compare/v1.2.2..v1.2.3) - 2026-04-15
+
+### 🔧 Chores
+
+- **(deps)** update dependency @biomejs/biome to v2.4.8 - ([270002c](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/270002cc7cb898c175fa8913633b74cac15aeaa2)) - @renovate
+- **(deps)** update dependency debacode-public/cspell-dictionaries to v1.23.0 - ([bc1b090](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/bc1b0900abde70ead4a9ee909c078834f6f3b20a)) - @renovate
+- **(deps)** update dependency debacode/renovate-configs to v3.9.0 - ([3618d5b](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/3618d5bd2234b2a84c49111906e830bde5904746)) - @renovate
+- **(deps)** update strapi monorepo to v5.40.0 - ([5e1c76e](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/5e1c76e3055935ec777117cf0c00f8756b8ed66f)) - @renovate
+- **(deps)** lock file maintenance - ([2cd34ec](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/2cd34ec3abb4cfb57717bbc5b6823dcb83a9850e)) - @renovate
+- **(deps)** update dependency pnpm to v10.33.0 - ([46abc91](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/46abc9111281621e5995bd9ed8e811d1a88ac3e1)) - @renovate
+- **(deps)** update dependency @biomejs/biome to v2.4.9 - ([5746f3d](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/5746f3d43395f10946d9956e4e2b1c7475f75d14)) - @renovate
+- **(deps)** update dependency debacode-public/cspell-dictionaries to v1.24.0 - ([a947c40](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/a947c402b0e29fb4bb581f7639e2512798b12a83)) - @renovate
+- **(deps)** lock file maintenance - ([64724b0](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/64724b0e7f929df81d88f72fb9951e766051db73)) - @renovate
+- **(deps)** update strapi monorepo to v5.42.0 - ([180ba12](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/180ba12ab96194bdf7187fa699e249e4dd04ece6)) - @Renovate Bot
+- **(deps)** update dependency @types/node to v22.19.17 - ([4254055](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/42540557f0a1dec3f8ed50ce1a7fa34aa97903d9)) - @renovate
+- **(deps)** update biome packages - ([3210097](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/3210097834c2793188197b1a11e238dd76de837c)) - @renovate
+- **(deps)** update dependency tools/shared-pipelines to v6 - ([04153d1](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/04153d1bc4b0ac7e0f060821bee0f4e401d3c43a)) - @renovate
+- **(deps)** lock file maintenance - ([aaaaee7](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/commit/aaaaee7bd16a7d07571df788c8c9417690fb12a3)) - @renovate
+
+
+
+
+#### Statistics
+- 14 commit(s) contributed to the release.
+- 23 day(s) passed between the first and last commit.
+- 14 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 30 day(s) passed between releases.
+---
 ## [1.2.2](https://gitlab.debacode.de/tools/strapi-nextjs-blurhash/compare/v1.2.1..v1.2.2) - 2026-03-16
 
 ### 🔧 Chores
