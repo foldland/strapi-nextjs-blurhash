@@ -57,7 +57,7 @@
     "@strapi/strapi": "5.42.1",
     "@strapi/typescript-utils": "5.42.1",
     "@strapi/upload": "5.42.1",
-    "@types/node": "22.19.17",
+    "@types/node": "24.12.2",
     "codemirror": "6.0.2",
     "codemirror5": "npm:codemirror@5.65.21",
     "typescript": "5.9.3"
@@ -65,7 +65,7 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^22.0.0",
+      "version": "^24.0.0",
       "onFail": "download"
     },
     "packageManager": [
