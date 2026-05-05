@@ -3,7 +3,7 @@
   "description": "A Strapi extension for generating and storing BlurHash strings, enhancing image loading visuals.",
   "license": "(c) Copyright 2026 foldland Software GmbH, all rights reserved.",
   "author": "fold:land",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "type": "commonjs",
   "keywords": [
     "strapi-extension",
