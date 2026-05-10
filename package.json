@@ -68,15 +68,10 @@
       "version": "^24.0.0",
       "onFail": "download"
     },
-    "packageManager": [
-      {
-        "name": "pnpm",
-        "version": "10.33.2",
-        "onFail": "download"
-      },
-      {
-        "name": "npm"
-      }
-    ]
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.0.9",
+      "onFail": "download"
+    }
   }
 }
