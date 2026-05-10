@@ -44,11 +44,11 @@
   },
   "peerDependencies": {
     "@strapi/sdk-plugin": "^5.4.0 || ^6.0.0",
-    "@strapi/strapi": "^5.36.0"
+    "@strapi/strapi": "^5.0.0"
   },
   "dependencies": {
-    "sharp": "^0.34.5",
-    "zod": "^4.3.6"
+    "sharp": "^0.34.0",
+    "zod": "^4.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.14",
