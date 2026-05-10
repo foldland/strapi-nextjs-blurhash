@@ -51,7 +51,7 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.13",
+    "@biomejs/biome": "2.4.14",
     "@debacode-public/biome-configs": "1.1.4",
     "@strapi/sdk-plugin": "6.1.0",
     "@strapi/strapi": "5.44.0",
