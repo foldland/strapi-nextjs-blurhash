@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.2.5](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.4..v1.2.5) - 2026-05-11
+
+### 🔨 Refactoring
+
+- migrate to foldland namespace - ([125c174](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/125c174dfa915bb4662b2fc80b16a2d4a184fc4c)) - @nikolas.rimikis
+
+### 🔧 Chores
+
+- **(deps)** update dependency @types/node to v24.12.3 - ([0393841](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/0393841e14ef7d7a08974e5bc750b0eaf3979152)) - @renovate
+- **(deps)** lock file maintenance - ([8b695c8](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/8b695c89fba128baa82ae4747bafa03b231d28d9)) - @renovate
+- add devcontainer lockfile - ([b4aa4e9](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/b4aa4e9472ad43324be2dd730095aa7e9d33b074)) - @nikolas.rimikis
+
+
+
+
+#### Statistics
+- 4 commit(s) contributed to the release.
+- 0 day(s) passed between the first and last commit.
+- 4 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 1 day(s) passed between releases.
+---
 ## [1.2.4](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.3..v1.2.4) - 2026-05-10
 
 ### 🐛 Bug Fixes & Optimizations
