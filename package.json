@@ -1,5 +1,5 @@
 {
-  "name": "@debacode-public/strapi-nextjs-blurhash",
+  "name": "@foldland/strapi-nextjs-blurhash",
   "description": "A Strapi extension for generating and storing BlurHash strings, enhancing image loading visuals.",
   "license": "(c) Copyright 2026 foldland Software GmbH, all rights reserved.",
   "author": "fold:land",
@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.14",
-    "@debacode-public/biome-configs": "1.1.4",
+    "@foldland/biome-configs": "1.1.5",
     "@strapi/sdk-plugin": "6.1.0",
     "@strapi/strapi": "5.45.0",
     "@strapi/typescript-utils": "5.45.0",
