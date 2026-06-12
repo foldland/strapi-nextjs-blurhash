@@ -3,7 +3,28 @@ minimumReleaseAge: 4320 # 3 days - same as renovate
 minimumReleaseAgeExclude:
   - "@foldland/*"
   - lodash@4.17.24
-  - axios@1.15.2
+  - '@strapi/admin@5.48.0'
+  - '@strapi/cloud-cli@5.48.0'
+  - '@strapi/content-manager@5.48.0'
+  - '@strapi/content-releases@5.48.0'
+  - '@strapi/content-type-builder@5.48.0'
+  - '@strapi/core@5.48.0'
+  - '@strapi/data-transfer@5.48.0'
+  - '@strapi/database@5.48.0'
+  - '@strapi/email@5.48.0'
+  - '@strapi/generators@5.48.0'
+  - '@strapi/i18n@5.48.0'
+  - '@strapi/logger@5.48.0'
+  - '@strapi/openapi@5.48.0'
+  - '@strapi/permissions@5.48.0'
+  - '@strapi/provider-email-sendmail@5.48.0'
+  - '@strapi/provider-upload-local@5.48.0'
+  - '@strapi/review-workflows@5.48.0'
+  - '@strapi/strapi@5.48.0'
+  - '@strapi/types@5.48.0'
+  - '@strapi/typescript-utils@5.48.0'
+  - '@strapi/upload@5.48.0'
+  - '@strapi/utils@5.48.0'
 
 registries:
   default: https://registry.npmjs.org/
@@ -29,12 +50,8 @@ hoistWorkspacePackages: false
 verifyDepsBeforeRun: "install"
 
 overrides:
-  # broken strapi peers
-  # https://github.com/strapi/strapi/issues/21201
-  typescript@5.3.x: ^5.3.0
   zod@3.25.67: ^3.25.76
   # security issues
-  axios@>=1.0.0 <1.15.2: ^1.15.2
   lodash@>=4.0.0 <=4.17.23: ^4.17.24
 
 allowBuilds:
