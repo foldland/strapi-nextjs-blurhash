@@ -51,8 +51,8 @@
     "zod": "^4.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.16",
-    "@foldland/biome-configs": "1.1.5",
+    "@biomejs/biome": "2.5.0",
+    "@foldland/biome-configs": "1.1.6",
     "@strapi/sdk-plugin": "6.1.1",
     "@strapi/strapi": "5.48.1",
     "@strapi/typescript-utils": "5.48.1",
