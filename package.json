@@ -54,9 +54,9 @@
     "@biomejs/biome": "2.5.4",
     "@foldland/biome-configs": "1.4.0",
     "@strapi/sdk-plugin": "6.1.1",
-    "@strapi/strapi": "5.50.0",
-    "@strapi/typescript-utils": "5.50.0",
-    "@strapi/upload": "5.50.0",
+    "@strapi/strapi": "5.50.2",
+    "@strapi/typescript-utils": "5.50.2",
+    "@strapi/upload": "5.50.2",
     "@types/node": "24.13.3",
     "codemirror": "6.0.2",
     "typescript": "5.9.3"
