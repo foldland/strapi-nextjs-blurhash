@@ -2,15 +2,16 @@
 
 include:
   - project: tools/shared-pipelines
-    ref: v7.10.2
+    ref: v7.13.2
     file: /base/base.yaml
     inputs:
       ignored_licenses:
         - BlueOak-1.0.0
         - LGPL-3.0-or-later
         - SEE LICENSE IN LICENSE
+        - MIT-0
   - project: tools/shared-pipelines
-    ref: v7.10.2
+    ref: v7.13.2
     file: /nodejs/nodejs.yaml
 
 # Prepare
