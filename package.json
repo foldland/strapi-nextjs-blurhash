@@ -64,12 +64,12 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "^24.0.0",
+      "version": "24.18.0",
       "onFail": "download"
     },
     "packageManager": {
       "name": "pnpm",
-      "version": "11.13.1",
+      "version": "11.15.1",
       "onFail": "download"
     }
   }
