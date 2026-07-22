@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.2.7](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.6..v1.2.7) - 2026-07-22
+
+### 🔧 Chores
+
+- **(deps)** update dependency pnpm to v11.13.1 - ([be4750d](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/be4750d459e69ca131f752bad30d834f642b8fae)) - @renovate
+- **(deps)** update dependency @types/node to v24.13.3 - ([51c9d4b](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/51c9d4bc4ba50c0b5ebfefc24cfabd873a6e6d41)) - @renovate
+- **(deps)** update biome packages - ([30d610b](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/30d610baf782d7c2c861037046386198219943c4)) - @renovate
+- **(deps)** update strapi monorepo to v5.50.2 - ([83f676b](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/83f676b99cd9caec2067282a8b1d804a88d5c153)) - @renovate
+- **(deps)** update dependencies - ([c1573a0](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/c1573a0d0a595c95206e9b4ca62be733e1a210f9)) - @nikolas.rimikis
+- **(deps)** lock file maintenance - ([bb7f53c](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/bb7f53c1b5a2c10b4926d73565898667b378c482)) - @renovate
+- make ready for public release - ([1627dc9](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/1627dc9009dc5f085d80a72cf370da51082905ba)) - @nikolas.rimikis
+
+
+
+
+#### Statistics
+- 7 commit(s) contributed to the release.
+- 9 day(s) passed between the first and last commit.
+- 7 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 16 day(s) passed between releases.
+---
 ## [1.2.6](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.5..v1.2.6) - 2026-07-06
 
 ### 🔧 Chores
@@ -37,14 +59,15 @@ All notable changes to this project will be documented in this file. See [conven
 - **(deps)** update node.js to 627da5f - ([88dab70](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/88dab7096121d54ef72137ee434d3e8d6a922c3e)) - @renovate
 - **(deps)** update biome packages - ([eb9a104](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/eb9a104e3c570b431e830a4177828a9117b973fd)) - @renovate
 - **(deps)** update strapi monorepo to v5.50.0 - ([558283d](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/558283d8c667fe91df23355ca05e2bc7e86bb60e)) - @renovate
+- **(deps)** lock file maintenance - ([3a17937](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/3a179376a980a457734e1930276513f42bda3c83)) - @renovate
 
 
 
 
 #### Statistics
-- 30 commit(s) contributed to the release.
+- 31 commit(s) contributed to the release.
 - 49 day(s) passed between the first and last commit.
-- 30 commit(s) parsed as conventional.
+- 31 commit(s) parsed as conventional.
 - 0 linked issue(s) detected in commits.
 - 56 day(s) passed between releases.
 ---
