@@ -1,5 +1,5 @@
 import p from 'node:path'
-import type { Core } from '@strapi/strapi'
+import type { Core } from '@strapi/types'
 import type { File } from '@strapi/upload/dist/server/src/types.d.ts'
 import sharp from 'sharp'
 import type { PluginConfig } from '../config/schema.ts'

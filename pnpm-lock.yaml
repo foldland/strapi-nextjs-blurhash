@@ -213,6 +213,9 @@ importers:
 
   .:
     dependencies:
+      '@strapi/types':
+        specifier: ^5.0.0
+        version: 5.51.1(@types/node@24.13.3)(supports-color@5.5.0)(ts-toolbelt@9.6.0)(typescript@5.9.3)
       sharp:
         specifier: ^0.35.0
         version: 0.35.3(@types/node@24.13.3)
