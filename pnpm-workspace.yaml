@@ -15,7 +15,7 @@ registries:
 # Dependency resolution
 savePrefix: "^"
 resolutionMode: "highest"
-strictPeerDependencies: false # TODO: broken strapi/pnpm stuff
+strictPeerDependencies: true
 preferFrozenLockfile: true
 
 # node version
@@ -30,6 +30,11 @@ blockExoticSubdeps: true
 hoist: false
 hoistWorkspacePackages: false
 verifyDepsBeforeRun: "install"
+
+# broken strapi peers
+peerDependencyRules:
+  allowedVersions:
+    codemirror: 5.65.21
 
 overrides:
   zod@3.25.67: ^3.25.76

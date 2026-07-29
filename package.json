@@ -52,12 +52,12 @@
     "zod": "^4.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.4",
-    "@foldland/biome-configs": "1.4.0",
+    "@biomejs/biome": "2.5.5",
+    "@foldland/biome-configs": "1.4.1",
     "@strapi/sdk-plugin": "6.1.1",
-    "@strapi/strapi": "5.51.0",
-    "@strapi/typescript-utils": "5.51.0",
-    "@strapi/upload": "5.51.0",
+    "@strapi/strapi": "5.51.1",
+    "@strapi/typescript-utils": "5.51.1",
+    "@strapi/upload": "5.51.1",
     "@types/node": "24.13.3",
     "codemirror": "6.0.2",
     "typescript": "5.9.3"
@@ -70,7 +70,7 @@
     },
     "packageManager": {
       "name": "pnpm",
-      "version": "11.15.1",
+      "version": "11.17.0",
       "onFail": "download"
     }
   }
