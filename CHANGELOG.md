@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.2.8](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.7..v1.2.8) - 2026-07-29
+
+### 🐛 Bug Fixes & Optimizations
+
+- build warnings - ([d443e08](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/d443e08885bb555758a8e27038667019cbf461ac)) - @nikolas.rimikis
+
+### 🔨 Refactoring
+
+- improve logging output - ([68af43b](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/68af43b2d90bbcb2d4f599219214b3dafb51f95c)) - @nikolas.rimikis
+
+### 🔧 Chores
+
+- **(deps)** update strapi monorepo to v5.51.0 - ([fb8b812](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/fb8b812212f1ebba8c541f2b418f5a711ed076d5)) - @renovate
+- **(deps)** update strapi monorepo to v5.51.1 - ([ede34a6](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/ede34a6b58679e1fa21399859086e653cbfce953)) - @nikolas.rimikis
+- **(deps)** update dependency pnpm to v11.18.0 - ([fd2a64a](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/fd2a64a9869aa0f032ee816e631feee9bede28db)) - @renovate
+- **(deps)** lock file maintenance - ([18b8174](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/18b81748d862a8c0baaa5c3571d5c9ab750e17d4)) - @renovate
+- add keywords to package.json - ([4b2230b](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/4b2230ba16614bd91e6ec61474c0de5ee088db40)) - @nikolas.rimikis
+
+
+
+
+#### Statistics
+- 7 commit(s) contributed to the release.
+- 1 day(s) passed between the first and last commit.
+- 7 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 7 day(s) passed between releases.
+---
 ## [1.2.7](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.6..v1.2.7) - 2026-07-22
 
 ### 🔧 Chores
