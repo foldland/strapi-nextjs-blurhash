@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/strapi'
+import type { Core } from '@strapi/types'
 import type { File } from '@strapi/upload/dist/server/src/types.d.ts'
 import type { PluginConfig } from './config/schema.ts'
 import { supportedMimeTypes } from './utils.ts'
@@ -22,7 +22,9 @@ const bootstrap = async ({ strapi }: { strapi: Core.Strapi }) => {
       photo.url === undefined ||
       !supportedMimeTypes.includes(photo.mime ?? '')
     ) {
-      strapi.log.debug(`blurhash: upload event has insufficient data ${photo}`)
+      strapi.log.debug('blurhash: upload event has insufficient data.', {
+        data: photo,
+      })
       return
     }
 

@@ -1,4 +1,4 @@
-import type { Core } from '@strapi/strapi'
+import type { Core } from '@strapi/types'
 
 const register = ({ strapi }: { strapi: Core.Strapi }) => {
   // @ts-expect-error this somehow works
