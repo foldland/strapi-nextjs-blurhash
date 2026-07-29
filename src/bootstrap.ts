@@ -22,7 +22,9 @@ const bootstrap = async ({ strapi }: { strapi: Core.Strapi }) => {
       photo.url === undefined ||
       !supportedMimeTypes.includes(photo.mime ?? '')
     ) {
-      strapi.log.debug(`blurhash: upload event has insufficient data ${photo}`)
+      strapi.log.debug('blurhash: upload event has insufficient data.', {
+        data: photo,
+      })
       return
     }
 

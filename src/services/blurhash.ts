@@ -37,7 +37,7 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
 
       return blurHash
     } catch (error) {
-      strapi.log.error(`blurhash: Error generating blurhash: ${error.message}`)
+      strapi.log.error('blurhash: Error generating blurhash.', { error: error })
     }
   },
 
