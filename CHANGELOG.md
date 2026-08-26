@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.2.9](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.8..v1.2.9) - 2026-08-26
+
+### 🔧 Chores
+
+- **(deps)** update all non-major dependencies - ([481e33c](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/481e33c516dbbf904642359c80c3751188b6960f)) - @Renovate Bot
+- **(deps)** lock file maintenance - ([f38a2d5](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/f38a2d5152e52cdeda471e3e77980f26615d2964)) - @renovate
+- **(deps)** update all non-major dependencies - ([de844c1](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/de844c197fee1becb5b7da8e985acb7c6de83c9f)) - @Renovate Bot
+- **(deps)** lock file maintenance - ([0d3e57c](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/0d3e57ce53cae1c91e85a11a582c530ecf2a9720)) - @renovate
+- **(deps)** update all non-major dependencies - ([400dc5d](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/400dc5dc16fab559d0a8c98d9cde6d0e1590a2cb)) - @renovate
+- **(deps)** lock file maintenance - ([e804dc1](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/e804dc1a74710741f1ff2d594fb179853de357c8)) - @renovate
+- **(deps)** update all non-major dependencies - ([663fa33](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/663fa3394cc20a3762b8d64781f414b8624599dd)) - @renovate
+- widen dependency ranges - ([58580cd](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/58580cd0c7a74a4e4a8a2e242fd9e6f336b9a897)) - @nikolas.rimikis
+
+
+
+
+#### Statistics
+- 8 commit(s) contributed to the release.
+- 23 day(s) passed between the first and last commit.
+- 8 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 28 day(s) passed between releases.
+---
 ## [1.2.8](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.7..v1.2.8) - 2026-07-29
 
 ### 🐛 Bug Fixes & Optimizations
