@@ -2,7 +2,7 @@
 
 include:
   - project: tools/shared-pipelines
-    ref: v7.14.11
+    ref: v7.16.0
     file: /base/base.yaml
     inputs:
       ignored_licenses:
@@ -11,7 +11,7 @@ include:
         - SEE LICENSE IN LICENSE
         - MIT-0
   - project: tools/shared-pipelines
-    ref: v7.14.11
+    ref: v7.16.0
     file: /nodejs/nodejs.yaml
 
 # Prepare
