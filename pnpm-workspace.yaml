@@ -17,15 +17,18 @@ preferFrozenLockfile: true
 # node version
 engineStrict: true
 ignorePnpmfile: true
-# pnpm version
-packageManagerStrict: true
-packageManagerStrictVersion: true
 
 # Security
 blockExoticSubdeps: true
 hoist: false
 hoistWorkspacePackages: false
 verifyDepsBeforeRun: "install"
+
+allowBuilds:
+  "@swc/core": false
+  core-js-pure: false
+  esbuild: false
+  sharp: false
 
 # broken strapi peers
 peerDependencyRules:
@@ -34,9 +37,3 @@ peerDependencyRules:
 
 overrides:
   vite@<=6.4.2: ^6.4.3
-
-allowBuilds:
-  "@swc/core": false
-  core-js-pure: false
-  esbuild: false
-  sharp: false
