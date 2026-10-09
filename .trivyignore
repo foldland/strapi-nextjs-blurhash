@@ -1,0 +1,2 @@
+# braces <=3.0.3 stack exhaustion, no patched release (https://github.com/micromatch/braces/issues/70).
+CVE-2026-93687 exp:2027-01-06
