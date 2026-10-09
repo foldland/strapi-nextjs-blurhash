@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/typescript-node:24@sha256:4c09888a2acdaf619daa79d2e811329536450a1045be9243fe03d4b02c81e91e
+FROM mcr.microsoft.com/devcontainers/typescript-node:24@sha256:5d4dfbb91a7d76906484ff55f69a883eb8ed3c2628ab5611a826c94b06f09fe2
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install gnupg2
