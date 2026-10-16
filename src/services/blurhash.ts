@@ -90,7 +90,6 @@ const blurhash = ({ strapi }: { strapi: Core.Strapi }) => ({
           })
         })
 
-      // biome-ignore lint/performance/noAwaitInLoops: we need chunking to avoid an OOM
       await Promise.all(chunk)
     }
 
