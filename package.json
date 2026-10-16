@@ -1,25 +1,16 @@
 {
   "name": "@foldland/strapi-nextjs-blurhash",
-  "description": "A Strapi extension for generating and storing BlurHash strings, enhancing image loading visuals.",
-  "license": "(c) Copyright 2026 foldland Software GmbH, all rights reserved.",
-  "author": "fold:land",
   "version": "1.2.9",
-  "type": "commonjs",
+  "description": "A Strapi extension for generating and storing BlurHash strings, enhancing image loading visuals.",
   "keywords": [
     "blurhash",
     "nextjs",
     "strapi-plugin",
     "strapi"
   ],
-  "files": [
-    "dist"
-  ],
-  "strapi": {
-    "kind": "plugin",
-    "name": "strapi-nextjs-blurhash",
-    "displayName": "Strapi Next.Js Blurhash",
-    "description": "A Strapi extension for generating and storing BlurHash strings, enhancing image loading visuals."
-  },
+  "license": "(c) Copyright 2026 foldland Software GmbH, all rights reserved.",
+  "author": "fold:land",
+  "type": "commonjs",
   "exports": {
     "./package.json": "./package.json",
     "./strapi-server": {
@@ -30,18 +21,36 @@
       "default": "./dist/index.js"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "strapi-plugin build",
     "check": "pnpm format:check && pnpm lint:check && pnpm typecheck && pnpm verify",
     "dev": "strapi-plugin watch",
-    "format:check": "biome check --formatter-enabled=true --linter-enabled=false --assist-enabled=false ",
+    "format:check": "biome check --formatter-enabled=true --linter-enabled=false --assist-enabled=false",
     "format:write": "biome format --write",
     "link": "strapi-plugin watch:link",
     "lint:check": "biome check --formatter-enabled=false --linter-enabled=true --assist-enabled=true",
     "lint:write": "biome lint --write",
     "test": "echo \"No tests setup\"",
-    "verify": "strapi-plugin verify",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "verify": "strapi-plugin verify"
+  },
+  "dependencies": {
+    "sharp": "^0.35.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@foldland/biome-configs": "1.6.0",
+    "@strapi/sdk-plugin": "6.1.1",
+    "@strapi/strapi": "5.58.0",
+    "@strapi/typescript-utils": "5.58.0",
+    "@strapi/upload": "5.58.0",
+    "@types/node": "24.19.2",
+    "codemirror": "6.0.2",
+    "typescript": "5.9.3"
   },
   "peerDependencies": {
     "@strapi/sdk-plugin": "^5.4.0 || ^6.0.0",
@@ -53,31 +62,22 @@
       "optional": true
     }
   },
-  "dependencies": {
-    "sharp": "^0.35.0",
-    "zod": "^4.0.0"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.5.14",
-    "@foldland/biome-configs": "1.5.1",
-    "@strapi/sdk-plugin": "6.1.1",
-    "@strapi/strapi": "5.56.0",
-    "@strapi/typescript-utils": "5.56.0",
-    "@strapi/upload": "5.56.0",
-    "@types/node": "24.19.1",
-    "codemirror": "6.0.2",
-    "typescript": "5.9.3"
-  },
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "24.21.0",
+      "version": "24.22.0",
       "onFail": "download"
     },
     "packageManager": {
       "name": "pnpm",
-      "version": "12.9.1",
+      "version": "12.11.2",
       "onFail": "download"
     }
+  },
+  "strapi": {
+    "kind": "plugin",
+    "name": "strapi-nextjs-blurhash",
+    "displayName": "Strapi Next.Js Blurhash",
+    "description": "A Strapi extension for generating and storing BlurHash strings, enhancing image loading visuals."
   }
 }
