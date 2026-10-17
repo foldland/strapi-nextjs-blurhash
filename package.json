@@ -8,8 +8,12 @@
     "strapi-plugin",
     "strapi"
   ],
-  "license": "(c) Copyright 2026 foldland Software GmbH, all rights reserved.",
-  "author": "fold:land",
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "foldland Software GmbH",
+    "email": "contact@fold.land",
+    "url": "https://fold.land"
+  },
   "type": "commonjs",
   "exports": {
     "./package.json": "./package.json",
