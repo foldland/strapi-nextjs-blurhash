@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.2.10](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.9..v1.2.10) - 2026-10-17
+
+### 🔧 Chores
+
+- **(deps)** update all non-major dependencies - ([4ef726f](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/4ef726f50dd1ae2810fd04e10ebcd63a9ab94cb3)) - @renovate
+- **(deps)** lock file maintenance - ([6fd65ca](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/6fd65ca7ce71d4a5fde4f80fe1024a1423a0019f)) - @renovate
+- **(deps)** update all non-major dependencies - ([b342180](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/b3421806249cca1b61412b8a4d67dfb4e086f0c2)) - @Renovate Bot
+- **(deps)** update dependency pnpm to v12 - ([a1e673d](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/a1e673dea8cfb134de71601e7ea621bafdc40096)) - @renovate
+- **(deps)** update all non-major dependencies - ([03b549f](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/03b549ff5e0a942a07325750ca3fe0ef404bca34)) - @renovate
+- **(deps)** lock file maintenance - ([71418e5](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/71418e52888a55ca993b89bbc0448b975c0d7c6e)) - @renovate
+- **(deps)** lock file maintenance - ([85b5b9b](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/85b5b9beb5b2e9a38482323ff0a59aaab88174bb)) - @renovate
+- **(deps)** update all non-major dependencies - ([cfb1865](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/cfb18651eb2282c9c1211da9c3de4b772e23a2a0)) - @Renovate Bot
+- **(deps)** update all non-major dependencies - ([8909d36](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/8909d36afc1cb9c7a4c9acc5ed5744b2948b94ee)) - @renovate
+- **(deps)** lock file maintenance - ([7179582](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/7179582dad91700423ae84452d8377f61c69a858)) - @renovate
+- fix security issues - ([c0c52cd](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/c0c52cd7fabb4734279a56e3595e3d76ac544ffb)) - @nikolas.rimikis
+- expand author section - ([dd88d94](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/dd88d940d92ca2bc77f2a2b04d71803273df8482)) - @nikolas.rimikis
+
+
+
+
+#### Statistics
+- 12 commit(s) contributed to the release.
+- 47 day(s) passed between the first and last commit.
+- 12 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 52 day(s) passed between releases.
+---
 ## [1.2.9](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.8..v1.2.9) - 2026-08-26
 
 ### 🔧 Chores
