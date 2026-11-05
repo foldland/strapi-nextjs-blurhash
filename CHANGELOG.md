@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.2.11](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.10..v1.2.11) - 2026-11-05
+
+### 🔧 Chores
+
+- **(deps)** lock file maintenance - ([aa4c0b7](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/aa4c0b7f7b6bfe65af498bec5064ed0466bba1f9)) - @renovate
+- **(deps)** update dependency pnpm to v12.14.0 - ([f79c38c](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/f79c38c1122c15e0c029017dc17581beeaad7c12)) - @renovate
+- **(deps)** update all non-major dependencies - ([88efd62](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/88efd623db6a9b6086e796c165b88052c098c836)) - @renovate
+- **(deps)** update all non-major dependencies - ([2ae53b3](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/2ae53b350f600ea0bb8bfed24f75537ef9a56b07)) - @Renovate Bot
+- **(deps)** update node.js to v26 - ([28cdfff](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/28cdfff99a6c062ff80854ccdce496fe6cb10ac3)) - @Renovate Bot
+- **(deps)** update node.js to v26 - ([2c8af83](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/2c8af83dfaa7a271ae1154b52677816a754d89dc)) - @renovate
+
+
+
+
+#### Statistics
+- 6 commit(s) contributed to the release.
+- 17 day(s) passed between the first and last commit.
+- 6 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 19 day(s) passed between releases.
+---
 ## [1.2.10](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.9..v1.2.10) - 2026-10-17
 
 ### 🔧 Chores
