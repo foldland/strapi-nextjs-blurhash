@@ -52,7 +52,7 @@
     "@strapi/strapi": "5.60.0",
     "@strapi/typescript-utils": "5.60.0",
     "@strapi/upload": "5.60.0",
-    "@types/node": "24.19.2",
+    "@types/node": "26.6.6",
     "typescript": "5.9.3"
   },
   "peerDependencies": {
@@ -68,7 +68,7 @@
   "devEngines": {
     "runtime": {
       "name": "node",
-      "version": "24.22.2",
+      "version": "26.13.0",
       "onFail": "download"
     },
     "packageManager": {
