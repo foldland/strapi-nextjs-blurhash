@@ -3,16 +3,18 @@ minimumReleaseAge: 4320 # 3 days - same as renovate
 minimumReleaseAgeExclude:
   - "@foldland/*"
   - "@strapi/*"
+  # security maintenance
 
 registries:
   default: https://registry.npmjs.org/
-  "@foldland": https://npm.registry.foldland.io/
+  "@foldland": https://npm.registry.foldland.io
 
 # Dependency resolution
 savePrefix: "^"
 resolutionMode: "highest"
 strictPeerDependencies: true
 preferFrozenLockfile: true
+sharedWorkspaceLockfile: false
 autoDedupe: true
 dedupePeers: true
 
@@ -21,27 +23,29 @@ engineStrict: true
 ignorePnpmfile: true
 
 # Security
+lockfile:
+  includeResolutionSettings: true
+audit:
+  level: high
 blockExoticSubdeps: true
 hoist: false
 hoistWorkspacePackages: false
 verifyDepsBeforeRun: "install"
 
 allowBuilds:
+  '@apollo/protobufjs': false
+  "@parcel/watcher": false
   "@swc/core": false
   core-js-pure: false
   esbuild: false
   sharp: false
 
+
 # broken strapi peers
 peerDependencyRules:
   allowedVersions:
     codemirror: 5.65.21
+    webpack: 5.109.2
 
 overrides:
-  axios@>=1.13.0 <1.20.0: ^1.20.0
-  handlebars@>=4.0.0 <=4.7.9: ^4.7.10
-  nodemailer@<=10.0.5: ^10.0.6
-  sharp@<0.35.5: ^0.35.5
-  shell-quote@>=1.8.4 <1.11.0: ^1.11.0
-  vite@<=6.4.2: ^6.4.3
-  webpack-dev-middleware@<7.4.6: ^7.4.6
+  webpack-dev-middleware@<7.4.5: ^7.4.5
