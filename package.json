@@ -42,8 +42,7 @@
     "verify": "strapi-plugin verify"
   },
   "dependencies": {
-    "sharp": "^0.35.0",
-    "zod": "^4.0.0"
+    "sharp": "^0.35.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.6.6",
@@ -52,13 +51,15 @@
     "@strapi/strapi": "5.61.0",
     "@strapi/typescript-utils": "5.61.0",
     "@strapi/upload": "5.61.0",
+    "@strapi/utils": "^5.62.0",
     "@types/node": "26.6.6",
     "typescript": "5.9.3"
   },
   "peerDependencies": {
     "@strapi/sdk-plugin": "^5.4.0 || ^6.0.0",
     "@strapi/strapi": "^5.0.0",
-    "@strapi/types": "^5.0.0"
+    "@strapi/types": "^5.0.0",
+    "@strapi/utils": "^5.62.0"
   },
   "peerDependenciesMeta": {
     "@strapi/types": {

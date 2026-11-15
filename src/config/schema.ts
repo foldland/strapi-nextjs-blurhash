@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from '@strapi/utils'
 
 const pluginConfigSchema = z.object({
   /**
