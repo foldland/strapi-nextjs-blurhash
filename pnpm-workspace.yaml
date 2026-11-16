@@ -46,6 +46,7 @@ peerDependencyRules:
   allowedVersions:
     codemirror: 5.65.21
     webpack: 5.109.2
+    date-fns: 2.30.0
 
 overrides:
   webpack-dev-middleware@<7.4.5: ^7.4.5
