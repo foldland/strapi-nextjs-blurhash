@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 ---
+## [1.2.13](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.12..v1.2.13) - 2026-11-16
+
+### 🔧 Chores
+
+- **(deps)** pin dependency @strapi/utils to 5.62.0 - ([2d849f4](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/2d849f4ac05049769f91d488b4836c9280c50550)) - @renovate
+- **(deps)** update all non-major dependencies - ([dfc46b2](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/dfc46b247992d4505b9a6eaf96946ab0061d627d)) - @renovate
+- **(deps)** lock file maintenance - ([a9aebbd](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/commit/a9aebbda1022e9b8a784bf16c60e5f6650278780)) - @Renovate Bot
+
+
+
+
+#### Statistics
+- 3 commit(s) contributed to the release.
+- 0 day(s) passed between the first and last commit.
+- 3 commit(s) parsed as conventional.
+- 0 linked issue(s) detected in commits.
+- 1 day(s) passed between releases.
+---
 ## [1.2.12](https://gitlab.fold.land/tools/strapi-nextjs-blurhash/compare/v1.2.11..v1.2.12) - 2026-11-15
 
 ### 🔨 Refactoring
